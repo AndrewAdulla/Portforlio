@@ -1,7 +1,8 @@
 import React from 'react';
 import portfolio from '../assets/portfolio.jpg';
-import realEstate from '../assets/realestate.jpg';
+import fixecom from '../assets/fixecom.jpg';
 import WorkImg from '../assets/workImg.jpeg';
+import realEstate from '../assets/realestate.jpg';
 
 const Work = () => {
   return (
@@ -42,13 +43,13 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${fixecom})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                FixEcom React js Website
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
